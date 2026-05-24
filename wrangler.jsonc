@@ -10,21 +10,21 @@
   "keep_vars": true,
   "routes": [
     {
-      "pattern": "DOMAIN_PLACEHOLDER",
+      "pattern": "myblog.bruceleo.com",
       "custom_domain": true
     }
   ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_id": "D1_DATABASE_ID",
+      "database_id": "5c2eafcb-f2e1-46ed-a540-0e3c2bbeb7d0",
       "migrations_dir": "migrations",
       "remote": true
     }
   ],
   "r2_buckets": [
     {
-      "bucket_name": "bucket-name-placeholder",
+      "bucket_name": "blog",
       "binding": "R2",
       "remote": true
     }
@@ -32,12 +32,12 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "57877cf90d6449058e62cdb9269bc536",
       "remote": true
     },
     {
       "binding": "OAUTH_KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "57877cf90d6449058e62cdb9269bc536",
       "remote": true
     }
   ],
